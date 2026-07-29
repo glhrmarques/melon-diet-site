@@ -1,14 +1,11 @@
+import HomeCarousel from "../../src/components/carousel/HomeCarousel";
+
 export default function Page() {
   return (
-      <aside className="bg-white min-h-screen py-30" >
-        <section className="flex justify-center">
-          <div className="
-          h-[400px] w-[400px] p-component-default bg-surface-breakfast rounded-[16px]"
-          >
-            <p>Something</p>
-
-          </div>
-        </section>
-      </aside>
+    <aside className="min-h-screen bg-white py-30">
+      <section className="flex justify-center">
+        <HomeCarousel />
+      </section>
+    </aside>
   );
 }
