@@ -7,10 +7,17 @@
   --black-400: #5B5B5B;
   --black-600: #8E8E8E;
   --black-800: #FFFFFF;
+
+  --red-400: #FFCCCB;
+  --red-800: #644645;
+
+  --spacing-16: 16px;
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+@layer base {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
 }

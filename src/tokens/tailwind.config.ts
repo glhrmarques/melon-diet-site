@@ -7,8 +7,14 @@ const config: Config = {
       extend: {
         colors: {
             content: {
-                primary: "var(--black-100)",
-            }
+                primary: "var(--black-800)",
+            },
+            surface: {
+                breakfast: "var(--red-400)",
+            },
+        },
+        spacing: {
+            "component-default": "var(--spacing-16)",
         },
       },
     },
