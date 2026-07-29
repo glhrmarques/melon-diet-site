@@ -77,17 +77,44 @@
   }
 
   0%,
-  100% {
+  12.5% {
     opacity: 1;
+    z-index: 3;
   }
 
-  25%,
-  75% {
+  25% {
     opacity: 0.65;
+    z-index: 2;
+  }
+
+  37.5% {
+    opacity: 0.35;
+    z-index: 1;
   }
 
   50% {
     opacity: 0.35;
+    z-index: 1;
+  }
+
+  62.5% {
+    opacity: 0.35;
+    z-index: 1;
+  }
+
+  75% {
+    opacity: 0.65;
+    z-index: 2;
+  }
+
+  87.5% {
+    opacity: 1;
+    z-index: 3;
+  }
+
+  100% {
+    opacity: 1;
+    z-index: 3;
   }
 }
 
