@@ -1,5 +1,5 @@
 export default function Page() {
   return (
-   <h1>Hello, home</h1>
+   <h1 className="text-content-primary">Hello, home</h1>
   );
 }
